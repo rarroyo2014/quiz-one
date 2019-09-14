@@ -1,8 +1,2 @@
 <h1>Greetings from around the World</h1>
-<% @hellos.each do |hello| %>
- <div>
-    <h2><%= hello.greet %></h2><br />
-  </div>
-
-  <hr />
-<% end %>
+<h2>- <%= @hellos.greet %></h2>
