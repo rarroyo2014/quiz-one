@@ -1,25 +1,24 @@
 @import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Roboto&display=swap)
 
-h1{
-  color: #F54D82;
-  font-size: 75px;
-  font-weight: normal;
-  margin-bottom: 0;
-  text-align: center;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: #F5F4B6;
-  background: #F5F4B6;
-
-}
-
-h2{
-  color: #14943F;
-  font-size: 50px;
+h1 {
+  color: #FA5D8F;
+  font-size: 150px;
   font-weight: normal;
   margin-top: 150px;
+  text-align: center;
 }
 
 body {
   background: image_url('pink_rice.png');
+}
+
+.navbar {
+  background: image_url('cork-board.png');
+  box-shadow: 0px 0px 2px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #1D2D8E
+  font-family: "Roboto", sans-serif;
 }
