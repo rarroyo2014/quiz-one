@@ -1,5 +1,8 @@
 @import "bootstrap";
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Roboto&display=swap)
+
+.clear {
+  clear: both;
+}
 
 h1 {
   color: #FA5D8F;
@@ -7,6 +10,8 @@ h1 {
   font-weight: normal;
   margin-top: 150px;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+
 }
 
 body {
@@ -20,5 +25,8 @@ body {
 
 .navbar-inverse .navbar-brand {
   color: #1D2D8E
-  font-family: "Roboto", sans-serif;
+  }
+
+.my_headline_font_size {
+  font-size: 24px;
 }
